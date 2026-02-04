@@ -1,0 +1,106 @@
+name: reframe
+description: "Reframe - Transform your activities into stunning social content"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.8
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI & Design
+  cupertino_icons: ^1.0.8
+  flutter_svg: ^2.0.10+1
+  cached_network_image: ^3.3.1
+  shimmer: ^3.0.0
+  flutter_animate: ^4.5.0
+  
+  # State Management
+  flutter_riverpod: ^2.5.1
+  riverpod_annotation: ^2.3.5
+  
+  # Navigation
+  go_router: ^14.2.7
+  
+  # Local Storage
+  hive_flutter: ^1.1.0
+  shared_preferences: ^2.2.3
+  path_provider: ^2.1.4
+  sqflite: ^2.3.3+1
+  
+  # Network & API
+  dio: ^5.5.0+1
+  connectivity_plus: ^6.0.5
+  
+  # Authentication
+  supabase_flutter: ^2.5.9
+  google_sign_in: ^6.2.1
+  sign_in_with_apple: ^6.1.1
+  flutter_secure_storage: ^9.2.2
+  
+  # Media & Files
+  photo_manager: ^3.2.2
+  video_player: ^2.9.1
+  ffmpeg_kit_flutter_full_gpl: ^6.0.3
+  image_picker: ^1.1.2
+  file_picker: ^8.0.6
+  share_plus: ^9.0.0
+  
+  # Location & Permissions
+  geolocator: ^12.0.0
+  permission_handler: ^11.3.1
+  
+  # Analytics
+  posthog_flutter: ^4.7.0
+  
+  # Monetization
+  purchases_flutter: ^6.30.2
+  
+  # Utilities
+  uuid: ^4.4.2
+  intl: ^0.19.0
+  equatable: ^2.0.5
+  json_annotation: ^4.9.0
+  url_launcher: ^6.3.0
+  package_info_plus: ^8.0.2
+  device_info_plus: ^10.1.2
+  collection: ^1.18.0
+  
+  # Audio
+  just_audio: ^0.9.39
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  
+  # Code Generation
+  build_runner: ^2.4.11
+  riverpod_generator: ^2.4.2
+  json_serializable: ^6.8.0
+  
+  # Testing
+  mocktail: ^1.0.4
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/animations/
+    - assets/models/
+  
+  fonts:
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/Inter-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Inter-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Inter-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Inter-Bold.ttf
+          weight: 700
